@@ -20,7 +20,7 @@ const Banner = () => {
                                 <p className="mb-xs-5">Integrating Yoga and Nutrition for Holistic Wellness.Join the Nourish & Flow Community for a Balanced Life.</p>
                                 <div className="banner-btn m-sm-auto">
                                     <Link to="/start"><button className="theme-btn btn-fill">Try Yoga</button></Link>
-                                    <Link to="/about">   <button className='theme-btn bth-blank'>Learn More</button></Link>
+                                    <Link to="/about">   <button className='theme-btn2 bth-blank'>Learn More</button></Link>
                                 </div>
                             </div>
                         </Col>

@@ -55,16 +55,33 @@
     text-align: center;
     line-height: 55px!important;
     padding: 0 55px;
-    background: #88b5b1;
+    background: white;
     text-transform: capitalize;
     position: relative;
     z-index: 2;
     border-radius: 3px;
-    color: #fff;
+    color: #54284C;
     transition: .4s;
     font-weight: 600;
 }
 
+
+.theme-btn2 {
+    display: inline-block;
+    border: 1px solid #88b5b1;
+    height: 61px;
+    text-align: center;
+    line-height: 55px!important;
+    padding: 0 55px;
+    background:#54284C;
+    text-transform: capitalize;
+    position: relative;
+    z-index: 2;
+    border-radius: 3px;
+    color: white;
+    transition: .4s;
+    font-weight: 600;
+}
 .btn-fill {
     margin-right: 20px;
 }
