@@ -29,7 +29,7 @@ img{
 }
 
 .list-item:hover {
-    color: #88b5b1;
+    color: #e05ac8;
 }
 
 .ml-5 {
@@ -37,7 +37,7 @@ img{
 }
 
 .ml-5:hover {
-    border-color: #88b5b1 !important;
+    border-color: #e05ac8 !important;
 }
 
 .userName {
@@ -61,17 +61,17 @@ img{
     color: white ;
     letter-spacing: 1px;
     line-height: 15px;
-    border: 2px solid #88b5b1 ;
+    border: 2px solid #e05ac8 ;
     border-radius: 40px;
-    background-color:#88b5b1 ;
+    background-color:#54284C ;
     transition: all 0.3s ease 0s;
     /* width: 50%; */
   }
   
   .btn-danger:hover {
     color: #FFF;
-    background: #88b5b1 ;
-    border: 2px solid #88b5b1;
+    background: #e05ac8 ;
+    border: 2px solid #e05ac8;
   }
 
 
