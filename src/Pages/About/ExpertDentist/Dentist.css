@@ -1,0 +1,23 @@
+.expert-dentist {
+    padding: 120px 0;
+    background-color: #54284C;
+}
+
+.expertDentist-txt h2 {
+    font-size: 36px;
+    line-height: 48px;
+    margin-bottom: 23px;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+
+.expertDentist-txt p {
+    margin-bottom: 15px;
+    font-weight: 300;
+    color: white;
+    font-family: "Roboto Slab",serif;
+}
+
+img{
+    border-radius: 30px;
+}

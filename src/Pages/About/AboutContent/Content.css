@@ -1,0 +1,23 @@
+.about-content-sec {
+    padding: 120px 0;
+    /* background-color: #54284C; */
+}
+
+.content-inner {
+    color: #666;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+
+/* for mobile responsive */
+@media only screen and (max-width: 426px){
+    .content-inner {
+        margin: 0 !important;
+        width: 100% !important;
+    }
+
+    .about-content-sec {
+        padding: 70px 0;
+    }
+}

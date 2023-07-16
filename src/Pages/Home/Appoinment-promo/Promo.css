@@ -1,0 +1,39 @@
+.promo-wrapper {
+    background: #54284C;
+}
+
+.promo-content h1 {
+    font-size: 36px;
+    line-height: 48px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.promo-banner {
+    margin-top: 32px;
+    position: relative;
+    z-index: 1;
+}
+
+.promo-banner img {
+    max-width: 100%;
+    height: auto;
+}
+
+.promo-banner::before {
+    position: absolute;
+    left: -14px;
+    bottom: -6px;
+    background: url("../../../Images/promo-bg.png") !important;
+    content: "";
+    width: 636px;
+    height: 420px;
+    z-index: -1;
+}
+
+
+/* for mobile responsive */
+@media only screen and (max-width: 426px){
+    .mt-sm-req {
+        margin-top: 3rem;
+    }
+}
