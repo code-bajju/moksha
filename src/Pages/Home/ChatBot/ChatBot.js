@@ -7,7 +7,7 @@ class KommunicateChat extends Component {
 componentDidMount(){
    (function(d, m){
        var kommunicateSettings =
-           {"appId":"8412524d5621035a54784f370626343d","popupWidget":true,"automaticChatOpenOnNavigation":true};
+           {"appId":"2ba759ec99ef1dc952e167eedf2ad57ef","popupWidget":true,"automaticChatOpenOnNavigation":true};
        var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
        s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
        var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
