@@ -1,5 +1,8 @@
+
 .about-wrapper {
     margin-bottom: 120px;
+    background-color: #54284C;
+    height: 720px;
 }
 
 .about-left {
@@ -28,10 +31,11 @@
     margin-bottom: 20px;
     font-family: "Josefin Sans", sans-serif;
     font-weight: 600;
+    color: white;
 }
 
 .about-content p {
-    color: #666;
+    color: rgb(229, 222, 222);
 }
 
 .about-content a, .single-service-box a {
