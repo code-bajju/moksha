@@ -18,5 +18,3 @@ The ideal remedy for her concerns lies in the Moksha app.
 - Calculate BMI and receive personalized diet suggestions.
 - Receive continuous support through an integrated chatbot.
 - Track nutrients with a comprehensive counter and get nutrients guidance.
-
-## Built at Soft CodeHack 1.0
