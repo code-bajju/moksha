@@ -1,14 +1,18 @@
 import React, { useContext, useState, useEffect } from 'react';
 import { MainContext } from '../context/MainContextProvider';
 import dietLists from '../data/dietLists';
+import NonVeg from '../data/NonVeg';
 import './base/Results.css';
 import { Col } from 'react-bootstrap';
+import NonVeg from '../data/NonVeg';
 
 
 
 function DietList() {
   const { bmi } = useContext(MainContext);
   const dietList = dietLists[0];
+  const NonVeg = NonVeg[0];
+
   const [diet, setDiet] = useState(dietList.underweight);
 
   const handleDiet = async () => {
@@ -32,7 +36,9 @@ function DietList() {
   const newDinner = diet?.dinner?.split(",").map((item) => `${item}`);
 
   return (
-    // <Col md={6} xl={4} lg={6} sm={12}>
+    <>  
+    <h2>Veg Diet</h2>
+
     <div className='diet-plan'>
       <div className='breakfast'>
         <h2>Breakfast</h2>
@@ -53,7 +59,33 @@ function DietList() {
         ))}
       </div>
     </div>
-    // </Col>
+    <h2>Non Veg Diet</h2>
+    <div className='diet-plan'>
+      <div className='breakfast'>
+        <h2>Breakfast</h2>
+        {newBreakfast?.map((item, index) => (
+          <p key={index}>{item}</p>
+        ))}
+      </div>
+      <div className='lunch'>
+        <h2>Lunch</h2>
+        {newLunch?.map((item, index) => (
+          <p key={index}>{item}</p>
+        ))}
+      </div>
+      <div className='dinner'>
+        <h2>Dinner</h2>
+        {newDinner?.map((item, index) => (
+          <p key={index}>{item}</p>
+        ))}
+      </div>
+    </div>
+
+    
+
+
+    </>
+
   );
 }
 

@@ -23,5 +23,7 @@ const DietLists = [{
     },
   }
   ]
+
   
   export default DietLists;
+  // export default Nonveg;
