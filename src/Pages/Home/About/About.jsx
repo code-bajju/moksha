@@ -5,6 +5,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import donto from "../../../Images/about-banner1.png";
 import dontoAnimated from "../../../Images/cleaner.png";
 import "./About.css";
+import KNOW from '../About/KNOW.png';
 
 const About = () => {
   useEffect(() => {
@@ -20,7 +21,7 @@ const About = () => {
           <Col md={12} lg={6}>
             <div className="about-left">
               <img
-                src="https://github.com/code-bajju/Project-Image/blob/main/KNOW.png?raw=true"
+                src={KNOW}
                 alt="donto"
                 className="img-fluid donto"
               />
