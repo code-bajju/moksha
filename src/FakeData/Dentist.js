@@ -2,33 +2,33 @@ export const FakeDoctors = [
     {
         "id": "001",
         "name": "Bajrang Gour",
-        "status": "I'm into Backend Development and engineering student at MMDU Mullana.",
+        "status": "I'm the Founder & Backend Developer and engineering student at MMDU Mullana.",
         "img": "https://avatars.githubusercontent.com/u/104210183?v=4"
     },{
         "id": "002",
         "name": "Sahil",
-        "status": "I'm into Backend Development and engineering student at MMDU Mullana.",
-        "img": "https://avatars.githubusercontent.com/u/104210183?v=4"
+        "status": "I'm the UI/UX Designer and engineering student at MMDU Mullana.",
+        "img": "https://i.postimg.cc/dD6W4FQL/IMG-4335-1-min.jpg"
     },{
         "id": "003",
         "name": "Ritika",
-        "status": "I'm into Frontend Development and engineering student at MMDU Mullana.",
-        "img": "https://avatars.githubusercontent.com/u/104210183?v=4"
+        "status": "I'm the Frontend Developer and engineering student at MMDU Mullana.",
+        "img": "https://i.postimg.cc/kVpkftQM/RITIKA12.jpg"
     },{
         "id": "004",
         "name": "Kartik Goel",
-        "status": "I'm into Backend Development and engineering student at MMDU Mullana.",
-        "img": "https://avatars.githubusercontent.com/u/104210183?v=4"
+        "status": "I'm the Backend Developer and engineering student at MMDU Mullana.",
+        "img": "https://i.postimg.cc/wyrDG9Md/kartik.jpg"
     },{
         "id": "005",
         "name": "Akshat S Malik",
-        "status": "I'm into Backend Development and engineering student at MMDU Mullana.",
-        "img": "https://avatars.githubusercontent.com/u/104210183?v=4"
+        "status": "I'm the 3D Model Designer and engineering student at MMDU Mullana.",
+        "img": "https://i.postimg.cc/nXT21b4n/akshat.jpg"
     },{
         "id": "006",
         "name": "Sanju",
-        "status": "I'm into Frontend Development and engineering student at MMDU Mullana.",
-        "img": "https://avatars.githubusercontent.com/u/104210183?v=4"
+        "status": "I'm the Frontend Developer and engineering student at MMDU Mullana.",
+        "img": "https://i.postimg.cc/vx1kJ8v7/sanju.jpg"
     }
    
 ]
