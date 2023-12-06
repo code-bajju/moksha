@@ -5,6 +5,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import donto from "../../../Images/about-banner1.png";
 import dontoAnimated from "../../../Images/cleaner.png";
 import "./About.css";
+import KNOW from '../About/KNOW.png';
 
 const About = () => {
   useEffect(() => {
@@ -20,7 +21,7 @@ const About = () => {
           <Col md={12} lg={6}>
             <div className="about-left">
               <img
-                src="https://github.com/code-bajju/Project-Image/blob/main/KNOW.png?raw=true"
+                src={KNOW}
                 alt="donto"
                 className="img-fluid donto"
               />
@@ -32,7 +33,7 @@ const About = () => {
                 <h1>Welcome to a Family</h1>
 
                 <p>
-                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quod, eaque omnis inventore sed vero fugit earum aliquid soluta culpa minima qui expedita nesciunt odit perspiciatis suscipit in rerum natus magnam. Quasi repudiandae quae voluptatum sunt ad minima repellat vero delectus, quisquam, culpa consectetur nobis obcaecati, reiciendis laudantium! Modi, quae.
+                Our WebApp Moksha is a personalized virtual trainer in individual’s pockets.The Moksha is presented as a holistic wellness platform that addresses various aspects of well-being, including the Immersive AR/VR Features, Emotionally Intelligent Chatbot,  accurate pose alignment, Calculate BMI, 3D Model Visualization and many more.
                 </p>
               </div>
             </div>
