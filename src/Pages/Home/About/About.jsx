@@ -7,6 +7,7 @@ import dontoAnimated from "../../../Images/cleaner.png";
 import "./About.css";
 import KNOW from '../About/KNOW.png';
 
+
 const About = () => {
   useEffect(() => {
     AOS.init({

@@ -1,9 +1,11 @@
 .about-wrapper {
     margin-bottom: 120px;
+    background-color: #54284C;
 }
 
 .about-left {
     position: relative;
+    padding-top: 30px;
 }
 
 
@@ -26,12 +28,17 @@
 
 .about-content h1 {
     margin-bottom: 20px;
-    font-family: "Josefin Sans", sans-serif;
-    font-weight: 600;
+    font-family: "Algerian";
+    font-weight: 900;
+    font-size: 40px;
+    color: whitesmoke;
 }
 
 .about-content p {
     color: #666;
+    font-family: "Britannic Bold";
+    font-size: 22px;
+    color: white;
 }
 
 .about-content a, .single-service-box a {
