@@ -39,7 +39,7 @@ const Footer = () => {
                     </Col>
                 </Row>
             </Container>
-            <div className="footer-copy-right text-center text-black">
+            <div className="footer-copy-right text-center text-white">
             Made with ❤️ by EliteByte using ReactJS.
 
             </div>

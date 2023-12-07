@@ -2,7 +2,6 @@ import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { FakeDoctors } from '../../FakeData/Dentist';
 import Doctors from '../../Pages/Home/Doctors/Doctors';
-import './doctor.css';
 
 const Dentist = () => {
     return (
