@@ -2,6 +2,7 @@ import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { FakeDoctors } from '../../FakeData/Dentist';
 import Doctors from '../../Pages/Home/Doctors/Doctors';
+import './doctor.css';
 
 const Dentist = () => {
     return (
@@ -14,7 +15,7 @@ const Dentist = () => {
                         </div>
                     </Col>
                 </Row>
-                <Row>
+                <Row >
                     {
                         FakeDoctors.map(dentist => (
                             <Doctors key={dentist.id} dentist={dentist} />
