@@ -14,7 +14,7 @@ const Dentist = () => {
                         </div>
                     </Col>
                 </Row>
-                <Row>
+                <Row >
                     {
                         FakeDoctors.map(dentist => (
                             <Doctors key={dentist.id} dentist={dentist} />

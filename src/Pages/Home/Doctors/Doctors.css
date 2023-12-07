@@ -1,5 +1,6 @@
 .doctor-wrapper {
     padding: 120px 0;
+    margin-bottom: -90px;
     /* background-color: #54283C; */
     
     /* justify-content: center;
@@ -14,6 +15,11 @@
     margin-top: 30px;
     transition: .4s;
     width: 100%;
+    
+}
+
+.fakedoctor-row {
+        margin-bottom: 50px;
 }
 
 

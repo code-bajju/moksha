@@ -15,7 +15,7 @@ const Doctors = (props) => {
         AOS.refresh();
       }, []);
     return (
-        <Col >
+        <Col className="fakedoctor-row">
             <div className="single-feature-box sigle-doctor">
                 <div className="doctors-profile" data-aos="fade-down">
                     <img src={img} alt="" />
