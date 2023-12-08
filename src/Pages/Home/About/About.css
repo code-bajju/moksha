@@ -7,6 +7,7 @@
 
 .about-left {
     position: relative;
+    padding-top: 90px;
 }
 
 
@@ -15,6 +16,7 @@
   /* justify-content: center;
   align-items: center; */
   padding: 100px;
+  padding-top: 210px;
 }
 
 .animated {
@@ -29,13 +31,17 @@
 
 .about-content h1 {
     margin-bottom: 20px;
-    font-family: "Josefin Sans", sans-serif;
-    font-weight: 600;
-    color: white;
+    font-family: "Algerian";
+    font-weight: 400;
+    font-size: 40px;
+    color: whitesmoke;
 }
 
 .about-content p {
-    color: rgb(229, 222, 222);
+    color: #666;
+    font-family: "Britannic Bold";
+    font-size: 18px;
+    color: white;
 }
 
 .about-content a, .single-service-box a {
