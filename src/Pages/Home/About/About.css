@@ -1,11 +1,13 @@
+
 .about-wrapper {
     margin-bottom: 120px;
     background-color: #54284C;
+    height: 720px;
 }
 
 .about-left {
     position: relative;
-    padding-top: 30px;
+    padding-top: 90px;
 }
 
 
@@ -14,6 +16,7 @@
   /* justify-content: center;
   align-items: center; */
   padding: 100px;
+  padding-top: 210px;
 }
 
 .animated {
@@ -29,7 +32,7 @@
 .about-content h1 {
     margin-bottom: 20px;
     font-family: "Algerian";
-    font-weight: 900;
+    font-weight: 400;
     font-size: 40px;
     color: whitesmoke;
 }
@@ -37,7 +40,7 @@
 .about-content p {
     color: #666;
     font-family: "Britannic Bold";
-    font-size: 22px;
+    font-size: 18px;
     color: white;
 }
 
