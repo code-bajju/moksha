@@ -10,7 +10,7 @@ const Dentist = () => {
                 <Row>
                     <Col sm={12}>
                         <div className="section-title">
-                            <h1 className="mb-5 mb-sm-dent center">Founder</h1>
+                            <h1 className="mb-5 mb-sm-dent center">Moksha’s Team</h1>
                         </div>
                     </Col>
                 </Row>
