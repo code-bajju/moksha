@@ -18,14 +18,23 @@ function BmiCalculator() {
         <input type="text" placeholder='Your name...' onChange={(e) => setName(e.target.value)} />
         <input type="text" placeholder='Weight, etc 60kg' onChange={(e) => setWeight(e.target.value)} />
         <input type="text" placeholder='Height, etc 160cm' onChange={(e) => setHeight(e.target.value / 100)} />
-        <div>
-          <label>
+        
+          <div className='radio-value'>
+          <label >
             <input type="radio" value='1' checked={value === '1'} onChange={(e) => setValue(e.target.value)} />
          <span>Male</span>
           </label>
           <label>
             <input type="radio" value='2' checked={value === '2'} onChange={(e) => setValue(e.target.value)} />
             <span>Female</span>
+          </label></div><div className='radios-value'>
+          <label>
+            <input type="radio" value='3' checked={value === '3'} onChange={(e) => setValue(e.target.value)} />
+         <span>Veg</span>
+          </label>
+          <label>
+            <input type="radio" value='4' checked={value === '4'} onChange={(e) => setValue(e.target.value)} />
+            <span>Non-Veg</span>
           </label>
         </div>
         <CalcButton type='button' className='btn' color={value} to='/results' onClick={calculate}>Calculate</CalcButton>
