@@ -3,7 +3,7 @@ export const FakeDoctors = [
         "id": "001",
         "name": "Bajrang Gour",
         "status": "I'm the Founder & Backend Developer and engineering student at MMDU Mullana.",
-        "img": "https://avatars.githubusercontent.com/u/104210183?v=4"
+        "img": "https://i.postimg.cc/Zvvc0sbC/bajrang.jpg"
     },{
         "id": "002",
         "name": "Sahil",
@@ -26,9 +26,9 @@ export const FakeDoctors = [
         "img": "https://i.postimg.cc/nXT21b4n/akshat.jpg"
     },{
         "id": "006",
-        "name": "Sanju",
+        "name": "Payal",
         "status": "I'm the Frontend Developer and engineering student at MMDU Mullana.",
-        "img": "https://i.postimg.cc/vx1kJ8v7/sanju.jpg"
+        "img": "https://i.postimg.cc/y3CKr5bH/payal.jpg"
     }
    
 ]
