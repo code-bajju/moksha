@@ -8,7 +8,7 @@ import './base/BmiCalculation.css'
 function BmiCalculator() {
   const { setName, setWeight, setHeight, calculate } = useContext(MainContext);
   const [value, setValue] = useState('1');
-
+ const [Foodprefernce, setFoodPreference] = useState('3');
   const imgPath = value === '1' ? male : female;
 
   return (
@@ -29,11 +29,11 @@ function BmiCalculator() {
             <span>Female</span>
           </label></div><div className='radios-value'>
           <label>
-            <input type="radio" value='3' checked={value === '3'} onChange={(e) => setValue(e.target.value)} />
+            <input type="radio" value='3' checked={Foodprefernce === '3'} onChange={(e) => setFoodPreference(e.target.value)} />
          <span>Veg</span>
           </label>
           <label>
-            <input type="radio" value='4' checked={value === '4'} onChange={(e) => setValue(e.target.value)} />
+            <input type="radio" value='4' checked={Foodprefernce === '4'} onChange={(e) => setFoodPreference(e.target.value)} />
             <span>Non-Veg</span>
           </label>
         </div>
