@@ -23,6 +23,7 @@ const bmiResults = [
     bgColor: 'red',
     color: 'white',
   },
+  
 ]
 
 export default bmiResults
