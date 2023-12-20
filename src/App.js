@@ -17,6 +17,8 @@ import MainContextProvider, { MainContext } from './Pages/Diet/context/MainConte
 import BmiCalculator from './Pages/Diet/components/BmiCalculator';
 import Nutrients from './Pages/Nutrients/Nutrients';
 import NutrientCount from './Pages/Nutrients/NutrientCount';
+import Disclaimer from './Pages/Disclaimer/Disclaimer.jsx';
+import Yoga3d from './Pages/Yoga/Yoga3d.js';
 function App() {
   return (
     <div className="App">
@@ -37,6 +39,8 @@ function App() {
           <Route path='/results' element ={<Result/>}/>
           <Route path='/bmi' element ={<BmiCalculator/>}/>
           <Route path='/NutriCount' element={<NutrientCount/>}/>
+          <Route path='/Disclaimer' element={<Disclaimer/>}/>
+          <Route path='/yoga3d' element={<Yoga3d/>}/>
 
         </Routes>
         

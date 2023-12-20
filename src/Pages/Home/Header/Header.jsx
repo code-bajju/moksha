@@ -27,7 +27,7 @@ const Header = () => {
                             <Link to="/bmi" className='list-item text-decoration-none'>BMI & Diet</Link>
                             <Link to="/nutricount" className='list-item text-decoration-none'>Nutri Count</Link>
                             <Link to="/about" className='list-item text-decoration-none'>About Us</Link>
-                            <Link to="/contact" className='list-item text-decoration-none'>Contact</Link>
+                            <Link to="/Disclaimer" className='list-item text-decoration-none'>Disclaimer</Link>
                             {user.email 
                             ?
                             <button type="button" className="btn btn-danger" onClick={logout}>Log Out</button>
