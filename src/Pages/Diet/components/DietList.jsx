@@ -3,15 +3,15 @@ import { MainContext } from '../context/MainContextProvider';
 import dietLists from '../data/dietLists';
 import NonVeg from '../data/NonVeg';
 import './base/Results.css';
-import { Col } from 'react-bootstrap';
-import NonVeg from '../data/NonVeg';
+// import { Col } from 'react-bootstrap';
+// import NonVeg from '../data/NonVeg';
 
 
 
 function DietList() {
   const { bmi } = useContext(MainContext);
   const dietList = dietLists[0];
-  const NonVeg = NonVeg[0];
+  // const NonVeg = NonVeg[0];
 
   const [diet, setDiet] = useState(dietList.underweight);
 
