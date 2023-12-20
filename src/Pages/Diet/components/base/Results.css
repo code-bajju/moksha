@@ -58,6 +58,13 @@
     text-align: center;
     flex: 0 0 30%; /* Adjust the width as needed */
   }
+
+  .personalized-plan{
+     opacity: 0.9;
+     color: #54284C;
+     text-decoration: none;
+  }
+  
   
   @media (max-width: 768px) {
     .diet-plan {

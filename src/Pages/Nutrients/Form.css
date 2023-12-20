@@ -1,0 +1,67 @@
+.building-form-container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .building-form {
+    gap: 15px;
+  }
+  
+  
+
+  .info-form {
+    text-align: center;
+    color: #333;
+  }
+  
+  .label-display {
+    display: flex;
+    
+  }
+  
+  .span-display {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+text-align: left;
+  }
+  
+  input,
+  select {
+    width: 70%;
+    padding: 8px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 0.5px solid black;
+    
+  }
+  
+  .textarea-info {
+    width: 100%;
+    min-height: 20px;
+    padding: 8px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  
+  .submit-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
