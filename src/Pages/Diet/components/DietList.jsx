@@ -3,6 +3,7 @@ import { MainContext } from '../context/MainContextProvider';
 import dietLists from '../data/dietLists';
 import NonVeg from '../data/NonVeg';
 import './base/Results.css';
+import { Link } from "react-router-dom";
 // import { Col } from 'react-bootstrap';
 // import NonVeg from '../data/NonVeg';
 
@@ -80,7 +81,7 @@ function DietList() {
         ))}
       </div>
     </div>
-
+    <Link to="/Form"><text><h5 className='personalized-plan'>Fill this form for Personalized Diet Plan >></h5></text></Link><div></div>
     
 
 
