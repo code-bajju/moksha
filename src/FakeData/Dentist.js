@@ -26,7 +26,7 @@ export const FakeDoctors = [
         "img": "https://i.postimg.cc/nXT21b4n/akshat.jpg"
     },{
         "id": "006",
-        "name": "Payal",
+        "name": "Payal Sharma",
         "status": "I'm the Frontend Developer and engineering student at MMDU Mullana.",
         "img": "https://i.ibb.co/89dZLs8/image.png"
     }
