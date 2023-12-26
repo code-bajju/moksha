@@ -335,5 +335,4 @@ export default NutrientCount;
 //export default NutrientCount;
 
 
-export default NutrientCount;
 
